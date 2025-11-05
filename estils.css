@@ -34,6 +34,7 @@ a {
 }
 
 .cabecera {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-bottom: 1px solid #dfdfdf;
   padding: 15px 0;
   background: #fff;
@@ -46,12 +47,14 @@ a {
 
 .cabecera nav {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 130px;
   width: 100%;
 }
 
 .menu {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0.7);
@@ -82,7 +85,7 @@ a {
 
 .foto {
   margin-right: 10px;
-  height: 40px;
+  height: 30px;
 }
 
 .logo {
@@ -108,19 +111,20 @@ a {
 }
 
 .pagina1-content {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   max-width: 900px;
   margin: 0 auto;
 }
 
 .pagina1 h1 {
-  font-size: 2.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
-  margin-bottom: 40px;
+  line-height: 1.1; 
 }
 
 .pagina1-image {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   height: auto;
   display: block;
   margin: 0 auto 40px auto;
