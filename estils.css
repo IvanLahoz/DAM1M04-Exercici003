@@ -201,17 +201,23 @@ a {
 }
 
 .photos h2 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.1; 
 }
 
 .photos p {
-  color: #d4d3d3;
-  font-size: 17px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #868686;
   line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto 40px auto;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  text-align: center;
 }
 
 .photo-main {
@@ -235,6 +241,7 @@ a {
 }
 
 .photo-cuadro h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -242,9 +249,11 @@ a {
 }
 
 .photo-cuadro p {
-  font-size: 15px;
-  color: #ccc;
-  line-height: 1.5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #868686;
+  line-height: 1.6;
+  max-width: 700px;
 }
 
 /* Secció de diseny */
