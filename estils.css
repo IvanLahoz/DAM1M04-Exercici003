@@ -398,6 +398,13 @@ a {
   margin-top: 40px;
 }
 
+.grid-caracteristicas-vector h3 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
 .caracteristica-card-vector {
   background-color: #111;
   padding: 30px;
@@ -410,11 +417,11 @@ a {
 }
 
 .card-descripcion-vector {
-  font-size: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
   line-height: 1.6;
-  color: #ccc;
-  margin-bottom: 20px;
-  flex-grow: 1;
+  max-width: 700px;
 }
 
 .card-miniatura-vector {
